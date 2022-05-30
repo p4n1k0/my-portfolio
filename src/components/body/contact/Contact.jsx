@@ -1,9 +1,12 @@
 import React from 'react'
+import Social from '../../comp/social/Social'
 
 function Contact() {
   return (
-    <div>
-      página de contato
+    <div className="contact">
+      <div className="social-web">
+        <Social />
+      </div>
     </div>
   )
 }

@@ -2,8 +2,17 @@ import React from 'react'
 
 function Skills() {
   return (
-    <div>
-      Página de habilidades
+    <div className="skills">
+      <div className="skills-info">
+        <ul>
+          <li>Git</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>DOM</li>
+          <li>React</li>
+        </ul>
+      </div>
     </div>
   )
 }

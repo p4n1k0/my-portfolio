@@ -4,7 +4,7 @@ import Mobile from './mobile/Mobile';
 import Web from './web/Web';
 
 function Header() {
-  const[isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false)
   return (
     <div className="header">
         <div className="logo">Portfolio</div>

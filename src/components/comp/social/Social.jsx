@@ -8,17 +8,13 @@ function Social() {
 
             <div className="social-icon-div">
 
-                <div className="social-icon-git">
-                    <a href="https://github.com/p4n1k0">
-                        <FaGithub size={50} />
-                    </a>
-                </div>
+                <a href="https://github.com/p4n1k0">
+                    <FaGithub size={50} />
+                </a>
 
-                <div className="social-icon-linkedin">
-                    <a href="https://www.linkedin.com/in/gabriel-tarick-bb708917b/">
-                        <FaLinkedin size={50} />
-                    </a>
-                </div>
+                <a href="https://www.linkedin.com/in/gabriel-tarick-bb708917b/">
+                    <FaLinkedin size={50} />
+                </a>
 
             </div>
         </div>
