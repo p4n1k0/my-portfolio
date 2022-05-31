@@ -9,7 +9,7 @@ function Body() {
         return (
             <div className="body">
                 <section id="about">
-                    <About />
+                    <About name="Gabriel" lastName="Tarick" />
                 </section>
 
                 <section id="project">
