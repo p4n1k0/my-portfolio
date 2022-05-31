@@ -1,6 +1,7 @@
-import React, {Component } from 'react';
+import React, { Component } from 'react';
 import './about.css';
-import logo from '../../../images/top.jpg';
+import top from '../../../assets/top.jpg';
+import Image from '../about/Image';
 
 export default class About extends Component {
   render() {
@@ -18,7 +19,7 @@ export default class About extends Component {
           </div>
   
           <div className="about-photo">
-            <img src={logo} alt="gabriel-img" className="picture" />
+            <Image source={top} alternatiText="gabriel-img" />
           </div>
   
         </div>
