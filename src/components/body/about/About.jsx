@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './about.css';
 import top from '../../../assets/top.jpg';
 import Image from '../about/Image';
+import PropTypes from 'prop-types';
 
 export default class About extends Component {
   render() {
@@ -13,7 +14,7 @@ export default class About extends Component {
               Olá &#128075;, Sou<br/>
               <span className="info-name">{this.props.name} {this.props.lastName}</span>.<br />
               <h6>Menos é mais. Ser simples requer tempo e esforço.</h6>
-              Estudante de desenvolvimento web <br />
+              Estudante de desenvolvimento web <br/>
               Em várias linguagens de programação.
             </p> 
           </div>
@@ -27,3 +28,8 @@ export default class About extends Component {
     )
   }  
 }
+
+About.propTypes = {
+  name: PropTypes.string,
+  lastName: PropTypes.string,
+}.isRequired

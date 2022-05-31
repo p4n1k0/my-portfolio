@@ -1,11 +1,10 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa';
 
 function Social() {
     return (
         <div className="social-contact">
-
             <div className="social-icon-div">
 
                 <a href="https://github.com/p4n1k0">
