@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 
-function Social() {
+export default function Social() {
     return (
         <div className="social-contact">
             <div className="social-icon-div">
@@ -14,10 +14,7 @@ function Social() {
                 <a href="https://www.linkedin.com/in/gabriel-tarick-bb708917b/">
                     <FaLinkedin size={50} />
                 </a>
-
             </div>
         </div>
     )
 }
-
-export default Social;
