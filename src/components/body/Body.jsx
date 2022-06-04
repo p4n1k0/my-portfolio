@@ -4,7 +4,6 @@ import About from './about/About';
 import Skills from './skill/Skills';
 import Project from './project/Project';
 import Contact from './contact/Contact';
-import { Link } from 'react-router-dom';
 
 function Body() {
         return (
@@ -18,7 +17,7 @@ function Body() {
                 </section>
 
                 <section id="skills">
-                    <Link to="/skill" component={Skills}>Skills</Link>
+                    <Skills />
                 </section>
 
                 <section id="contact">
