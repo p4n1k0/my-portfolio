@@ -9,10 +9,9 @@ function Skills() {
   return (
     <div className="skills">
       <div className="skills-info">
-        <fieldset>
-          <legend>Habilidades</legend>
-          <ul>{habilidades.map((habilidade) => Skill(habilidade))}</ul>
-        </fieldset>
+
+        <ul>{habilidades.map((habilidade) => Skill(habilidade))}</ul>
+
       </div>
     </div>
   )
