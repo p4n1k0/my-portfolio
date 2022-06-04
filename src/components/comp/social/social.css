@@ -1,6 +1,6 @@
 .social-contact {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .social-icon {
-    height: 20px;
+    height: 40px;
 }
 
 @media only screen and (max-width: 720px) {
