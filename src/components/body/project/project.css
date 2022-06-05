@@ -2,5 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: stretch;
-    color: blue;    
+    color: white;
+    font-size: x-large;
+}
+
+#fieldset {    
+    background-color: green;
 }

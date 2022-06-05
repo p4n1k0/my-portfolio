@@ -2,8 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-style: italic;
+    font-size: larger;
 }
 
 .skills-info {
-    color: rgb(0, 128, 100);
+    color:rgba(158, 6, 133, 0.541);
+}
+
+#hability {
+    color: green;
 }

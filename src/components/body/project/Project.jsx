@@ -6,7 +6,7 @@ export default class Project extends Component {
     return (
       <div className="projects">
         <fieldset>
-          <legend>Projetos:</legend>
+          <legend id="fieldset">Projetos:</legend>
 
 
 
