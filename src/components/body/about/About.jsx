@@ -15,8 +15,12 @@ export default class About extends Component {
               <span className="info-name">{this.props.name} {this.props.lastName}</span>.<br />
               <h6>Menos é mais. Ser simples requer tempo e esforço.</h6>
               Estudante de desenvolvimento web <br/>
-              Em várias linguagens de programação.
+              em várias linguagens de programação.
             </p> 
+            <p>
+              Brasileiro, morando em <br/>
+              São Paulo - SP. <br/>               
+            </p>
           </div>
   
           <div className="about-photo">
